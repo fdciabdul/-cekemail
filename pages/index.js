@@ -10,7 +10,7 @@ export default function Index() {
 
     setLoading("Loading pak ...");
 
-    const getData = await fetch("http://git.taqin.tech:1337/pwned/" + input);
+    const getData = await fetch("https://git.taqin.tech:1338/pwned/" + input);
     const resData = await getData.json();
 
     console.log(loading);
